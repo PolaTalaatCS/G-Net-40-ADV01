@@ -46,15 +46,33 @@ namespace G_Net_40_ADV01
 
             #endregion
             #region Question 5
-        //    public static T FindMax<T>(T a, T b) where T : IComparable<T>
-        //{
-        //    if (a.CompareTo(b) > 0)
-        //        return a;
-        //    else
-        //        return b;
-        //}
+            //    public static T FindMax<T>(T a, T b) where T : IComparable<T>
+            //{
+            //    if (a.CompareTo(b) > 0)
+            //        return a;
+            //    else
+            //        return b;
+            //}
             #endregion
+            #region Question 6
+            //    public interface IRepository<T> where T : class
+            //{
+            //    T? GetById(int id);
+            //    IEnumerable<T> GetAll();
+            //    void Add(T entity);
+            //    void Update(T entity);
 
+            //}
+            #endregion
+        }
     }
     }
-}
+
+
+
+
+
+
+
+
+
