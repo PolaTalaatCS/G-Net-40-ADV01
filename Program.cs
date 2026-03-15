@@ -71,9 +71,18 @@ namespace G_Net_40_ADV01
             //}
             #endregion
             #region Question 8
-        //    public class expermint<T> where T : class
+            //    public class expermint<T> where T : class
+            //{
+            //    public T Data { get; set; }
+            //}
+            #endregion
+            #region question 9
+        //    public class Factory<T> where T : new()
         //{
-        //    public T Data { get; set; }
+        //    public T Create()
+        //    {
+        //        return new T();
+        //    }
         //}
             #endregion
     }
