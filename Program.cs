@@ -24,17 +24,26 @@ namespace G_Net_40_ADV01
             #endregion
             #region Question 3
             //it is  Generic classes that can have multiple type parameters
-        //    public class pair <T1 , T2>
-        //{
-        //    public T1 Tfirst {  get; set; }
-        //    public T2 Tsecond { get; set; }
+            //    public class pair <T1 , T2>
+            //{
+            //    public T1 Tfirst {  get; set; }
+            //    public T2 Tsecond { get; set; }
 
-        //    public Pair(TFirst first, TSecond second)
-        //    {
-        //        First = first;
-        //        Second = second;
-        //    }
-        //}
+            //    public Pair(TFirst first, TSecond second)
+            //    {
+            //        First = first;
+            //        Second = second;
+            //    }
+            //}
+            #endregion
+            #region Question 4
+            //A generic method declares its own type parameter(s) It can exist in both generic and non-generic classes The compiler often infers the type argument
+          //public void swap<T> (ref  T x, ref T y) {
+          //  T temp = x;
+          //  x= y;
+          //  y= temp;
+          //}
+
             #endregion
 
         }
