@@ -147,6 +147,10 @@ namespace G_Net_40_ADV01
         // Covariance allows you to use a more derived type than originally specified Marked with out keyword
         // OUT MEAN  can only appear in output positions
         #endregion
+        #region Question 16
+        //Contravariance allows you to use a less derived type than originally specified Marked with in keyword
+        //IN mean T can only appear in input positions
+        #endregion
     }
 }
     }
