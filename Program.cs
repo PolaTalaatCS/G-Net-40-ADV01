@@ -38,14 +38,23 @@ namespace G_Net_40_ADV01
             #endregion
             #region Question 4
             //A generic method declares its own type parameter(s) It can exist in both generic and non-generic classes The compiler often infers the type argument
-          //public void swap<T> (ref  T x, ref T y) {
-          //  T temp = x;
-          //  x= y;
-          //  y= temp;
-          //}
+            //public void swap<T> (ref  T x, ref T y) {
+            //  T temp = x;
+            //  x= y;
+            //  y= temp;
+            //}
 
             #endregion
+            #region Question 5
+        //    public static T FindMax<T>(T a, T b) where T : IComparable<T>
+        //{
+        //    if (a.CompareTo(b) > 0)
+        //        return a;
+        //    else
+        //        return b;
+        //}
+            #endregion
 
-        }
+    }
     }
 }
