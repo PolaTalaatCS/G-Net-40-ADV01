@@ -157,7 +157,9 @@ namespace G_Net_40_ADV01
         //      Covariance(out) is used for return values and allows conversion from derived type to base type
         //Contravariance(in) is used for method parameters and allows conversion from base type to derived type
         #endregion
-
+        #region Question 18 
+        //Each closed generic type has its own copy of static fields.List<int> and List<string> have separate static data
+        #endregion
     }
 }
     }
