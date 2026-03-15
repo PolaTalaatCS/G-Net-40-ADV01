@@ -102,13 +102,23 @@ namespace G_Net_40_ADV01
         //        Console.WriteLine("Animal sound");
         //    }
         //}
-     //public class cat<T> where T : Animal
+        //public class cat<T> where T : Animal
         //{
         //    public void MakeSound(T animal)
         //    {
         //        animal.Speak();
         //    }
         //}
+        #endregion
+        #region Question 12
+    //    public class Repository<T>
+    //where T : class, IComparable<T>, new()
+    //    {
+    //        public T Create()
+    //        {
+    //            return new T();
+    //        }
+    //    }
         #endregion
     }
 }
