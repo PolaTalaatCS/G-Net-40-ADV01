@@ -94,8 +94,24 @@ namespace G_Net_40_ADV01
         //    }
         }
             #endregion
+        #region Question 11
+        //public class Animal
+        //{
+        //    public void Speak()
+        //    {
+        //        Console.WriteLine("Animal sound");
+        //    }
+        //}
+     //public class cat<T> where T : Animal
+        //{
+        //    public void MakeSound(T animal)
+        //    {
+        //        animal.Speak();
+        //    }
+        //}
+        #endregion
     }
-    }
+}
     }
 
 
