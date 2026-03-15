@@ -111,14 +111,20 @@ namespace G_Net_40_ADV01
         //}
         #endregion
         #region Question 12
-    //    public class Repository<T>
-    //where T : class, IComparable<T>, new()
-    //    {
-    //        public T Create()
-    //        {
-    //            return new T();
-    //        }
-    //    }
+        //    public class Repository<T>
+        //where T : class, IComparable<T>, new()
+        //    {
+        //        public T Create()
+        //        {
+        //            return new T();
+        //        }
+        //    }
+        #endregion
+        #region Question 13
+        //public T GetDefault<T>()
+        //{
+        //    return default(T);
+        //}
         #endregion
     }
 }
