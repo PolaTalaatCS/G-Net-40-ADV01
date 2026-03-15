@@ -1,4 +1,6 @@
-﻿using System.Security.Cryptography.X509Certificates;
+﻿using Microsoft.VisualBasic;
+using System.Reflection.Metadata;
+using System.Security.Cryptography.X509Certificates;
 
 namespace G_Net_40_ADV01
 {
@@ -151,6 +153,11 @@ namespace G_Net_40_ADV01
         //Contravariance allows you to use a less derived type than originally specified Marked with in keyword
         //IN mean T can only appear in input positions
         #endregion
+        #region Question 17
+        //      Covariance(out) is used for return values and allows conversion from derived type to base type
+        //Contravariance(in) is used for method parameters and allows conversion from base type to derived type
+        #endregion
+
     }
 }
     }
