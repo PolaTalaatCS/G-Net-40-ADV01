@@ -77,13 +77,22 @@ namespace G_Net_40_ADV01
             //}
             #endregion
             #region question 9
-        //    public class Factory<T> where T : new()
+            //    public class Factory<T> where T : new()
+            //{
+            //    public T Create()
+            //    {
+            //        return new T();
+            //    }
+            //}
+            #endregion
+            #region Question 10
+        //    public class Printer<T> where T : IComparable<T>
         //{
-        //    public T Create()
+        //    public T Max(T a, T b)
         //    {
-        //        return new T();
+        //        return a.CompareTo(b) > 0 ? a : b;
         //    }
-        //}
+        }
             #endregion
     }
     }
