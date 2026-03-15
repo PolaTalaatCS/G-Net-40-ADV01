@@ -65,9 +65,15 @@ namespace G_Net_40_ADV01
             //}
             #endregion
             #region Question 7
-        //    public class Example<T> where T : struct
+            //    public class Example<T> where T : struct
+            //{
+            //    public T Value { get; set; }
+            //}
+            #endregion
+            #region Question 8
+        //    public class expermint<T> where T : class
         //{
-        //    public T Value { get; set; }
+        //    public T Data { get; set; }
         //}
             #endregion
     }
