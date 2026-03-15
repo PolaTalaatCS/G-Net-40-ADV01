@@ -127,23 +127,27 @@ namespace G_Net_40_ADV01
         //}
         #endregion
         #region Question 14
- //public class safeList<T>
-//    {
-//   private List<T> items = new List<T>();
-//   public void Add(T item)
-//    {
-//        items.Add(item);
-//     }
+        //public class safeList<T>
+        //    {
+        //   private List<T> items = new List<T>();
+        //   public void Add(T item)
+        //    {
+        //        items.Add(item);
+        //     }
 
-//   public T Get(int index)
-//        {
-//            if (index >= 0 && index < items.Count)
-//                return items[index];
-//  return default(T);
-//       }
-//    }
-            #endregion
-}
+        //   public T Get(int index)
+        //        {
+        //            if (index >= 0 && index < items.Count)
+        //                return items[index];
+        //  return default(T);
+        //       }
+        //    }
+        #endregion
+        #region Question 15 
+        // Covariance allows you to use a more derived type than originally specified Marked with out keyword
+        // OUT MEAN  can only appear in output positions
+        #endregion
+    }
 }
     }
 
